@@ -1,0 +1,44 @@
+
+.dashboard h4 a{
+    font-size: 18px;
+    padding-top: 29px;
+    padding-left: 29px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+label{
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+input{
+    margin-bottom: 15px !important;
+    padding: 10px !important;
+    font-size: 20px !important;
+}
+
+.dashboard .row .right_column{
+  padding-left: 100px;
+  padding-top: 75px;
+
+}
+.dashboard .row .right_column span{
+ 
+   color: rgb(65, 65, 160);
+
+}
+
+.dashboard .row .left_column{
+ 
+    height: 100vh !important;
+
+}
+ .dashboard .left_column  p a{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: aliceblue;
+
+ }

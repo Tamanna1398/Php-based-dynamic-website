@@ -1,0 +1,85 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.dash_section .main_column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dash_section  .left_column{
+    width: 20%;
+    /*height: 100vh;*/
+    background-color: rgb(171, 193, 205);
+}
+
+.dash_section  .left_column img{
+    padding-top: 20px;
+    
+}
+
+.dash_section  .left_column ol{
+    padding-left: 0px;
+}
+.dash_section  .left_column ol li a{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-top: 20px;
+    color: #282260;
+}
+
+
+.dash_section  .left_column ol li:hover::after{
+   width: 100%;
+   
+}
+
+.dash_section  .left_column i{
+    padding-right: 5px;
+}
+.dash_section .right_column{
+    width: 80%;
+   /* height: 100vh;*/
+    background-color: rgb(217, 224, 229);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dash_section .right_column .form{
+
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+/*.dd1{
+    display: none;
+}*/
+
+.dash_section  .left_column .dd1 ul a{
+    display: block;
+    text-decoration: none;
+    padding-block: 3px;
+    padding-left: 10px;
+    
+}
+
+.dd1 li{
+    padding: 10px 0;
+}
+.dd1 li:hover{
+    background: #282260;
+    
+}
+
+.dd1 ul li:hover a{
+    color: #fff;
+}
+
+/*.dash_section  .left_column ol li a:hover .dd1{
+    background-color: blue;
+}*/
